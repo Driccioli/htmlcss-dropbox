@@ -96,7 +96,7 @@ header > img{
 #partner{
     background-color: mediumpurple;
     width: 100%;
-    display: inline-block;
+    height:80vh;
     padding: 10vh 100px 5vh 100px;
 }
 
@@ -110,4 +110,18 @@ header > img{
     border: 1px solid black;
     width: 700px;
     height: 60vh;
+}
+
+#features{
+    background-color: lightsalmon;
+    padding: 10vh 100px 5vh 100px;
+    height: 200vh;
+}
+
+.feature{
+    float: left;
+    width: 400px;
+    height: 80vh;
+    border: 1px solid black;
+    margin: 10vh 10px 0 0;
 }
