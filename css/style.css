@@ -125,3 +125,42 @@ header > img{
     border: 1px solid black;
     margin: 10vh 10px 0 0;
 }
+
+#sponsors{
+    background-color: lightgreen;
+    padding: 10vh 0 5vh 0;
+    height: 120vh;
+}
+
+#faq{
+    background-color: white;
+    padding: 10vh 100px 5vh 100px;
+    height: 150vh;
+    text-align: left;
+    font-size: 30px;
+    line-height: 15vh;
+}
+
+h3{
+    margin-right: 30px;
+    font-weight: normal;
+}
+
+footer{
+    width:100%;
+    background-color: black;
+    padding: 10vh 100px 5vh 100px;
+    color: white;
+    height: 60vh;
+}
+
+ul{
+    float: left;
+    list-style-type: none;
+    width: calc(100%/6);
+    margin-right: 30px;
+}
+
+li{
+    line-height:5vh;
+}
