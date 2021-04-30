@@ -54,9 +54,9 @@ nav > img{
     padding: 1vh 15px;
 }
 
-div{
+/* div{
     text-align: center;
-}
+} */
 
 header, main{
     padding-inline: 100px;
@@ -156,7 +156,6 @@ h2{
     }
 
 #partner{
-    background-color: mediumpurple;
     width: 100%;
     height:80vh;
     padding: 10vh 100px 5vh 100px;
@@ -169,24 +168,36 @@ h2{
 
     #partner > div{
         float: right;
-        border: 1px solid black;
+        line-height: 7vh;
         width: 700px;
         height: 60vh;
     }
 
+    .border-button{
+        border: 1px solid black;
+        padding: 2vh 20px;
+    }
+
 #features{
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
     padding: 10vh 100px 5vh 100px;
     height: 200vh;
 }
 
 .feature{
     float: left;
-    width: 370px;
+    width: calc(100% / 3 - 10px);
+    /* border: 1px solid black; */
     height: 80vh;
-    border: 1px solid black;
     margin: 10vh 10px 0 0;
 }
+
+    .feature-pic{
+        text-align: center;
+    }
+        .feature-pic > img{
+            max-width:370px;
+        }
 
 #sponsors{
     background-color: lightgreen;
