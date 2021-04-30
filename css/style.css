@@ -7,7 +7,7 @@
 
 body{
     
-    background-color: lightgray;
+    /* background-color: lightgray; */
 }
 
 clearfix:after{
@@ -73,54 +73,87 @@ h1{
     font-size: 60px;
 }
 
-header > div{
-    width: 400px;
-    height: 50vh;
-    margin-top:10vh;
-    margin-left: 100px;
-    font-size: 20px;
-    line-height: 5vh;
-    text-align: left;
+h2{
+    font-size: 50px;
 }
 
-#header-text > span{
-    margin-top: 3vh;
-    font-size: 25px;
-}
+    header > div{
+        width: 400px;
+        height: 50vh;
+        margin-top:10vh;
+        margin-left: 100px;
+        font-size: 20px;
+        line-height: 5vh;
+        text-align: left;
+    }
 
-header > img{
-    position: absolute;
-    bottom: -10vh;
-    right: 50px;
-    max-width:700px;
-    z-index: 5;
-}
+    #header-text > span{
+        margin-top: 3vh;
+        font-size: 25px;
+    }
+
+    header > img{
+        position: absolute;
+        bottom: -10vh;
+        right: 50px;
+        max-width:700px;
+        z-index: 5;
+    }
 
 #plans{
-    background-color: lightsteelblue;
-    height: 160vh;
+    /* background-color: lightsteelblue; */
+    height: 230vh;
     padding:15vh 100px 0 100px;
 }
 
-.monthly-plan{
-    float: left;
-    width: calc((100% /3) - 20px);
-    height: 100vh;
-    border: 1px solid black;
-    margin: 1vh 20px 0 0;
-}
+    .radio{
+        text-align: left;
+        font-size: 20px;
+        padding: 2vh 0 0 35px;
+    }
 
-#plan-3{
-    margin-right:0;
-}
+    .radio > label{
+        margin-right: 20px;
+    }
 
-.enterprise{
-    float: left;
-    margin-top: 3vh;
-    border: 1px solid black;
-    height: 35vh;
-    width: 100%;
-}
+    .monthly-plan{
+        float: left;
+        width: calc((100% /3) - 20px);
+        height: 140vh;
+        border: 1px solid black;
+        margin: 1vh 20px 0 0;
+        padding-left: 20px;
+        text-align: left;
+        line-height: 10vh;
+    }
+
+    .monthly-plan > span{
+        font-size: 25px;
+    }
+
+    .plan-features > *::before{
+        content:"\2714";
+        margin-right: 5px;
+    }
+
+    #plan-3{
+        margin-right:0;
+    }
+
+    .enterprise{
+        float: left;
+        text-align: left;
+        font-size: 25px;
+        margin-top: 3vh;
+        border: 1px solid black;
+        height: 35vh;
+        width: 100%;
+    }
+
+    #ufficio-vendite{
+        float: right;
+        font-size: 20px;
+    }
 
 #partner{
     background-color: mediumpurple;
@@ -129,17 +162,17 @@ header > img{
     padding: 10vh 100px 5vh 100px;
 }
 
-#partner > img{
-    float: left;
-    max-height: 60vh;
-}
+    #partner > img{
+        float: left;
+        max-height: 60vh;
+    }
 
-#partner > div{
-    float: right;
-    border: 1px solid black;
-    width: 700px;
-    height: 60vh;
-}
+    #partner > div{
+        float: right;
+        border: 1px solid black;
+        width: 700px;
+        height: 60vh;
+    }
 
 #features{
     background-color: lightsalmon;
