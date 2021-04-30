@@ -5,10 +5,7 @@
     font-family: sans-serif;
 }
 
-body{
-    
-    /* background-color: lightgray; */
-}
+
 
 clearfix:after{
     content:"";
@@ -74,7 +71,7 @@ h1{
 }
 
 h2{
-    font-size: 30px;
+    font-size: 40px;
 }
 
     header > div{
@@ -190,14 +187,14 @@ h2{
     width: calc(100% / 3 - 10px);
     /* border: 1px solid black; */
     height: 80vh;
-    margin: 10vh 10px 0 0;
+    margin: 5vh 10px -2vh 0;
 }
 
     .feature-pic{
         text-align: center;
     }
         .feature-pic > img{
-            max-width:370px;
+            max-width:100%;
         }
 
 #sponsors{
@@ -205,6 +202,24 @@ h2{
     padding: 10vh 0 5vh 0;
     height: 120vh;
 }
+
+    #sponsors > h2, #sponsors > a{
+        margin-inline: 100px;
+    }
+
+    .companies{
+        float:left;
+        border: 1px solid black;
+        width: calc(100% /3);
+        height: 72vh;
+    }
+        .logo{
+            float: left;
+            border: 1px solid black;
+            width: calc(100%/2);
+            height:36vh;
+            position:relative;
+        }
 
 #faq{
     background-color: white;
