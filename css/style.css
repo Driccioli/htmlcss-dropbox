@@ -198,7 +198,7 @@ h2{
         }
 
 #sponsors{
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     padding: 10vh 0 5vh 0;
     height: 95vh;
 }
@@ -209,7 +209,7 @@ h2{
 
     .companies{
         float:left;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         width: calc(100% /3);
         height: 72vh;
     }
@@ -318,9 +318,15 @@ h2{
     line-height: 15vh;
 }
 
-h3{
-    margin-right: 30px;
+    #faq > .arrow{
+        float: right;
+        margin-right: 20px;
+    }
+
+h5{
+    /* margin-right: 70px; */
     font-weight: normal;
+    display: inline-block;
 }
 
 footer{
@@ -331,13 +337,22 @@ footer{
     height: 60vh;
 }
 
-.footer-links{
-    float: left;
-    list-style-type: none;
-    width: calc(100%/6);
-    margin-right: 30px;
-}
+    .footer-links{
+        float: left;
+        list-style-type: none;
+        width: calc(100%/6);
+        margin-right: 30px;
+    }
 
-li{
-    line-height:5vh;
-}
+    li{
+        line-height:5vh;
+    }
+
+    footer > div{
+        float: left;
+        width:calc(100%/18);
+    }
+
+        footer hr{
+            margin-bottom: 2vh;
+        }
