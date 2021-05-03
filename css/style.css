@@ -84,10 +84,19 @@ h2{
         text-align: left;
     }
 
-    #header-text > span{
-        margin-top: 3vh;
-        font-size: 25px;
+    #header-text{
+        font-size: 18px;
     }
+
+        #header-text > span{
+            margin-top: 3vh;
+            font-size: 16px;
+        }
+
+        #header-text > b{
+            font-size: 30px;
+        }
+        
 
     header > img{
         position: absolute;
@@ -99,14 +108,18 @@ h2{
 
 #plans{
     /* background-color: lightsteelblue; */
-    height: 300vh;
+    height: 230vh;
     padding:15vh 100px 0 100px;
 }
 
+    #plans hr{
+        color: lightgrey;
+    }
+
     .radio{
         text-align: left;
-        font-size: 20px;
-        padding: 2vh 0 0 35px;
+        font-size: 18px;
+        padding: 2vh 0 0 0;
     }
 
     .radio > label{
@@ -117,19 +130,28 @@ h2{
         float: left;
         width: calc((100% /3) - 20px);
         height: 170vh;
-        border: 1px solid black;
+        border: 1px solid lightgrey;
         margin: 1vh 20px 0 0;
-        padding-left: 20px;
+        padding-inline: 20px;
         text-align: left;
         line-height: 10vh;
+        font-size: 15px;
     }
 
-    .monthly-plan > span{
-        font-size: 20px;
+    .single-or-team{
+        font-size: 15px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    img.single-or-team{
+        max-width: 20px;
+        margin-right: 10px;
     }
 
     .plan-features > *::before{
         content:"\2714";
+        color:cornflowerblue;
         margin-right: 5px;
     }
 
@@ -140,17 +162,17 @@ h2{
     .enterprise{
         float: left;
         text-align: left;
-        font-size: 25px;
-        margin-top: 3vh;
-        border: 1px solid black;
-        height: 35vh;
+        font-size: 16px;
+        margin-top: 5vh;
+        border: 1px solid lightgrey;
+        padding: 2vh 10px;
+        height: 22vh;
         width: 100%;
     }
 
     #ufficio-vendite{
         float: right;
         margin-right: 20px;
-        font-size: 20px;
     }
 
 #partner{
@@ -166,7 +188,8 @@ h2{
 
     #partner > div{
         float: right;
-        line-height: 7vh;
+        font-size: 18px;
+        line-height: 5vh;
         width: 500px;
         height: 60vh;
     }
@@ -179,23 +202,24 @@ h2{
 #features{
     /* background-color: lightsalmon; */
     padding: 10vh 100px 5vh 100px;
-    height: 200vh;
+    height: 180vh;
 }
 
-.feature{
-    float: left;
-    width: calc(100% / 3 - 10px);
-    /* border: 1px solid black; */
-    height: 80vh;
-    margin: 5vh 10px -2vh 0;
-}
-
-    .feature-pic{
-        text-align: center;
+    .feature{
+        float: left;
+        width: calc(100% / 3 - 10px);
+        /* border: 1px solid black; */
+        height: 80vh;
+        font-size: 18px;
+        margin: 5vh 10px -2vh 0;
     }
-        .feature-pic > img{
-            max-width:100%;
+
+        .feature-pic{
+            text-align: center;
         }
+            .feature-pic > img{
+                max-width:100%;
+            }
 
 #sponsors{
     /* background-color: lightgreen; */
@@ -207,7 +231,9 @@ h2{
         margin-inline: 100px;
     }
 
+
     .companies{
+        margin-top: 5vh;
         float:left;
         /* border: 1px solid black; */
         width: calc(100% /3);
@@ -295,7 +321,7 @@ h2{
             }
 
 #free-trial{
-    padding: 15vh 220px;
+    padding: 12vh 225px;
     background-color: #B4D0E7;
     color: #713152;
 }
@@ -312,9 +338,9 @@ h2{
 #faq{
     background-color: white;
     padding: 10vh 100px 5vh 100px;
-    height: 150vh;
+    height: 100vh;
     text-align: left;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 15vh;
 }
 
@@ -332,9 +358,10 @@ h5{
 footer{
     width:100%;
     background-color: black;
-    padding: 10vh 100px 5vh 100px;
+    padding: 30vh 100px 30vh 100px;
     color: white;
-    height: 60vh;
+    height: 100vh;
+    font-size: 15px;
 }
 
     .footer-links{
@@ -349,10 +376,17 @@ footer{
     }
 
     footer > div{
+        margin-top: 1vh;
         float: left;
-        width:calc(100%/18);
+        width:calc(100%/12);
     }
 
         footer hr{
             margin-bottom: 2vh;
+        }
+
+        .icon{
+            max-width:15px;
+            filter:invert(1);
+            display: inline-block;
         }
